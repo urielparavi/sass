@@ -1,0 +1,94 @@
+.char-highlight {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #521751;
+}
+
+html {
+  font-size: 94.75%;
+}
+@media (min-width: 40rem) {
+  html {
+    font-size: 125%;
+  }
+}
+html body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+html .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html .sass-section, html .sass-details, html .sass-introduction {
+  border: 0.05rem solid #521751;
+  background: #f7e1f6;
+  padding: 2rem;
+  text-align: center;
+  width: 90%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media (min-width: 40rem) {
+  html .sass-section, html .sass-details, html .sass-introduction {
+    width: 30rem;
+  }
+}
+html .sass-introduction {
+  -webkit-box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
+          box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
+}
+html .sass-introduction p {
+  margin: 0;
+}
+html .sass-details {
+  margin: 2rem 0;
+}
+html .section-header {
+  border-bottom: 0.05rem solid #521751;
+}
+html .section-header h1 {
+  margin: 0 0 1rem 0;
+}
+html .documentation-links {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+html .documentation-links li {
+  margin: 0.2rem 0;
+  background: white;
+}
+html .documentation-links .documentation-link {
+  text-decoration: none;
+  color: #521751;
+  display: block;
+  padding: 0.2rem;
+  border: 0.05rem solid #521751;
+}
+html .documentation-links .documentation-link:hover,
+html .documentation-links .documentation-link:active {
+  color: white;
+  background: #fa923f;
+  border-color: #fa923f;
+}/*# sourceMappingURL=main.css.map */
